@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Caleb Tutty"]
   spec.email         = ["caleb@prettymint.co.nz"]
   spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.summary       = 'Hosiery is a message router for messages from WebSockets'
   spec.homepage      = ""
   spec.license       = "MIT"
 

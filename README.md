@@ -1,6 +1,6 @@
 # Hosiery
 
-TODO: Write a gem description
+Hosiery is a message router for messages from WebSockets. A work in progress.
 
 ## Installation
 
