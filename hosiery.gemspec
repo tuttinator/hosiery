@@ -4,20 +4,20 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'hosiery/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "hosiery"
+  spec.name          = 'hosiery'
   spec.version       = Hosiery::VERSION
-  spec.authors       = ["Caleb Tutty"]
-  spec.email         = ["caleb@prettymint.co.nz"]
+  spec.authors       = ['Caleb Tutty']
+  spec.email         = ['caleb@prettymint.co.nz']
   spec.description   = %q{TODO: Write a gem description}
   spec.summary       = 'Hosiery is a message router for messages from WebSockets'
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.homepage      = ''
+  spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
 
-  spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency 'bundler', '~> 1.3'
+  spec.add_development_dependency 'rake'
 end
